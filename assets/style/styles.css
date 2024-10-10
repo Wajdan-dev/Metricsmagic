@@ -1,0 +1,535 @@
+* {
+   
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow: hidden auto;
+}
+
+
+ .first-sect{
+    isolation: isolate;
+ }
+
+ .pseudoSelection {
+    user-select: none;
+    --pseudoSelection--background: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .hero{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    max-height: 280px;
+    cursor: default;
+ }
+
+ .hero img{ 
+        display: block;
+        object-fit: cover;
+        border-radius: 0px;
+        width: 100%;
+        height: 30vh;
+        max-height: 280px;
+        opacity: 1;
+        object-position: center 50%;
+ }
+
+
+ 
+ .second-section{
+    max-width: 709px;
+    margin: auto;
+    width: 100%;
+    padding: 0px 15px;
+ }
+
+.diving{
+    user-select: none;
+    --pseudoSelection--background: transparent;
+    pointer-events: none;
+}
+
+.diving-icon{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 78px;
+        width: 78px;
+        border-radius: 0.25em;
+        flex-shrink: 0;
+        position: relative;
+        z-index: 1;
+        margin-left: 3px;
+        margin-bottom: 0px;
+        margin-top: -42px;
+        pointer-events: auto;
+    
+}
+
+.title2{
+    max-width: 100%;
+    width: 100%;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+    padding-top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 1em;
+    font-weight: inherit;
+    margin: 0px;
+    color: rgb(55, 53, 47);
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+    cursor: text;
+    display: flex;
+    align-items: center;
+}
+
+.card-1{
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(241, 241, 239);
+    padding: 16px 16px 16px 12px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 0.25em;
+}
+
+.notion-emoji2{
+    width: 100%;
+    height: 100%;
+    background: url(../images/twitter-emoji-spritesheet-64.2d0a6b9b.png) 13.3333% 63.3333% / 6100% 6100%;
+}
+
+
+.card-row{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.cards{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: calc(33.3333% - 30.6667px);
+}
+.card-content{
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(241, 241, 239);
+    padding: 12px 16px 12px 12px;
+    gap: 8px;
+}
+
+.heading{
+    max-width: 100%;
+    width: 100%;
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+    padding: 3px 2px;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3;
+    margin: 0px;
+    font-size: 24px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+
+.list{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left:20px ;
+}
+
+.list li{
+    max-width: 100%;
+    width: 100%; 
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+    padding: 3px 2px;
+    text-align: start;
+}
+
+.headin-2{
+    max-width: 100%;
+    width: 100%; 
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+    padding: 3px 2px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin: 0px;
+}
+
+.desc{
+    max-width: 100%;
+    width: 100%; 
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+    padding: 3px 2px;
+    margin: 5px 0px;
+}
+
+
+.blue-bg{
+    max-width: 576px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.greyBg{
+    max-width: 528px;
+    width: 100%;
+     margin-left: auto;
+}
+
+.tri{
+    cursor: pointer;
+}
+
+.item p{
+    max-width: 100%;
+     width: 100%;
+        word-break: break-word;
+         caret-color: rgb(55, 53, 47);
+          padding: 3px 2px;
+          margin: 0;
+}
+
+.item {
+    padding-left: 20px;
+}
+
+.collapse {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.imgFluid{
+    max-width: 96px;
+    height: 96px;
+    width: 100%;
+}
+
+.ellipse{
+    max-width: 100%;
+     width: 100%;
+       word-break: break-word;
+     caret-color: rgb(55, 53, 47);
+     padding-left: 2px;
+     padding-right: 2px;
+}
+
+.bttnn{
+    cursor:pointer;
+    color:rgba(51, 126, 169, 1);
+    word-wrap:break-word;
+    font-weight:600;
+    fill:rgba(51, 126, 169, 1);
+    text-decoration:inherit
+}
+
+.bottom{
+    max-width: 100%;
+     width: 100%; 
+     word-break: break-word;
+     caret-color: rgb(55, 53, 47);
+     padding: 3px 2px;
+}
+
+
+
+.main-card-sec{
+    width: 100%;
+    max-width: 1524px;
+    align-self: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.bord{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-shadow: rgb(233, 233, 231) 0px -1px 0px inset;
+ 
+    width: 100%;
+}
+.iconss {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    opacity: 0;
+    transition: opacity 200ms ease;
+}
+
+.bord:hover .iconss {
+    opacity: 1;
+}
+
+
+.sorting{
+    user-select: none;
+    transition: background 20ms ease-in;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    height: 28px;
+    width: 28px;
+    padding: 6px;
+    font-size: 14px;
+    color: rgba(55, 53, 47, 0.45);
+    fill: rgba(55, 53, 47, 0.45);
+    font-weight: 400;
+    line-height: 1;
+}
+
+.filterr{
+    user-select: none;
+    transition: background 20ms ease-in;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    height: 28px;
+    width: 28px;
+    padding: 6px;
+    font-size: 14px;
+    color: rgba(55, 53, 47, 0.45);
+    fill: rgba(55, 53, 47, 0.45);
+    font-weight: 400;
+    line-height: 1;
+}
+
+.automation{
+    user-select: none;
+    transition: background 20ms ease-in;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    height: 28px;
+    width: 28px;
+    padding: 6px;
+    font-size: 14px;
+    color: rgba(55, 53, 47, 0.45);
+    fill: rgba(55, 53, 47, 0.45);
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+.mainContent{
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-height: inherit;
+    width: 1524px;
+    left: -408px;
+}
+.horizontal{
+    z-index: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 100%;
+    overflow: auto hidden;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.notionBoardView{
+    margin-left: 408px;
+    margin-right: 408px;
+    float: left;
+    min-width: 100%;
+}
+
+.titless{
+    position: absolute;
+    background: white;
+    height: 42px;
+    padding-top: 8px;
+    z-index: 85;
+    display: flex;
+    box-shadow: white -3px 0px 0px;
+    min-width: 100%;
+}
+
+.title1{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 260px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    box-sizing: content-box;
+    flex-shrink: 0;
+}
+.number{
+    user-select: none;
+    transition: background 20ms ease-in;
+    cursor: default;
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+    border-radius: 6px;
+    font-size: 14px;
+    min-width: 0px;
+    padding: 4px 8px;
+    color: rgba(55, 53, 47, 0.5);
+    font-weight: 400;
+}
+.notionBoardGroup{
+    flex: 0 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    box-sizing: content-box;
+    width: 260px;
+    height: max-content;
+}
+
+.notionPageBlock a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    user-select: none;
+    transition: background 100ms ease-out;
+    cursor: pointer;
+    box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px;
+    border-radius: 6px;
+    background: white;
+    overflow: hidden;
+    margin-bottom: 5px;
+    position: static;
+    height: 100%;
+    min-height: 40px;
+}
+.notionPageBlock a:hover{
+    color: black;
+}
+
+
+
+
+
+
+@media(max-width:776px){
+    .card-row {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+    .headin-2 {
+        max-width: 100%;
+        width: 100%;
+        word-break: break-word;
+        caret-color: rgb(55, 53, 47);
+        padding: 3px 2px;
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 1.3;
+        margin: 0px;
+    }
+    .title2 {
+        max-width: 100%;
+        width: 100%;
+        white-space: pre-wrap;
+        word-break: break-word;
+        caret-color: rgb(55, 53, 47);
+        padding-top: 3px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 1em;
+        font-weight: inherit;
+        margin: 0px;
+        color: rgb(55, 53, 47);
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 29px;
+        cursor: text;
+        display: flex;
+        align-items: center;
+    }
+    .mainContent{
+        flex-grow: 1;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        max-height: inherit;
+        width: 375px;
+        left: -24px;
+    }
+    .notionBoardView{
+        margin-left: 24px;
+        margin-right: 24px;
+        float: left;
+        min-width: 100%;
+    }
+    .iconss {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        opacity: 1;
+        transition: opacity 200ms ease;
+    }
+}
